@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 99%;
+    margin: 2rem auto;
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header #title{
+    margin: 1.5rem 0;
+    font-size: 2.5rem;
+}
+
+figure{
+    width: 97%;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+#img-caption{
+    text-align: center;
+    margin: .5rem 0;
+}
+
+#tribute-info{
+    text-align: center;
+    margin: 2rem 0;
+    font-size: 1.2rem;
+}
+
+ul{
+    width: 50%;
+    margin: 0 auto;
+}
+
+ul li{
+    margin: 1rem 0;
+}
+
+blockquote{
+    width: 50%;
+    margin: 2rem auto;
+}
+
+blockquote p{
+    margin-bottom: 1rem;
+}
+
+footer{
+    width: 80%;
+    margin: 0 auto;
+}

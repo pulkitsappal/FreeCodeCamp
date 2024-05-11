@@ -1,0 +1,237 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    padding: 0px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 100px;
+    background-color: rgb(238, 238, 238);
+}
+
+header  nav{
+    width: 20rem;
+}
+
+header div img{
+    width: 400px;
+}
+
+header nav ul{
+    border: 1px solid black;
+    display: flex;
+    list-style: none;
+}
+
+header nav ul li a{    
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+
+
+
+form{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.form-element{
+    display: block;
+    margin: 30px auto;
+}
+
+form h1{
+    font-size: 1.7rem;
+}
+
+form #email{
+    width: 400px;
+    padding: 1rem;
+}
+
+form label>input{
+  padding: 10px 5px;
+  width: 280px;
+}
+
+form #submit{
+  padding: 10px;
+  width: 200px;
+  font-size: 1.3rem;
+  background-color: rgb(241, 196, 15);
+  color: black;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+
+
+
+table{
+    margin: 80px auto 0;
+    width: 60vw;
+}
+
+table tr td{
+    padding: 30px 40px;
+}
+
+table tr td p{
+    font-size: 1.5rem;
+}
+
+table tr td h1{
+    font-size: 2rem;
+}
+
+table tr td i{
+    color: darkorange;
+}
+
+
+
+
+
+
+
+
+
+.price{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.price .price-header{
+    background-color: #ddd;
+    padding: 10px auto;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --bg-color: rgb(238, 238, 238);
+}
+
+body{
+    background-color: var(--bg-color);
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-color);
+    position: fixed;
+    top: 0;
+    height: 90px;
+}
+
+header .logo img{
+    width: 500px;
+}
+
+header nav{
+    width: 34rem;
+    margin-right: 5rem;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    cursor: pointer;
+}
+
+
+
+/* form section  */
+
+form{
+    margin: 130px auto;
+    width: 70%;
+    max-width: 900px;
+}
+
+form h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+form input{
+    display: block;
+    margin: 30px auto;
+}
+
+form #email{
+    width: 300px;
+    height: 40px;
+    padding: 0 10px;
+}
+
+form #submit{
+    width: 250px;
+    height: 50px;
+    background-color: rgb(241, 196, 15);
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+form #submit:hover{
+    cursor: pointer;
+}
+
+
+/* table section  */
+table{
+    margin: 0 auto;
+    border-spacing: 30px;
+}
+
+table tr td{
+    padding: 20px;
+}
+
+table tr td i{
+    color: darkorange;
+}
+
+table tr td h1{
+    font-size: 2.5rem;
+}
+
+table tr td p{
+    font-size: 1.2rem;
+}

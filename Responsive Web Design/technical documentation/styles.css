@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root{
+    --width: 22%;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(77, 78, 83);
+}
+
+#navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: var(--width);
+    border-right: 2px solid grey;
+    height: 100vh;
+}
+
+#navbar header{
+    font-size: 1.5em;
+    padding: 1rem 2rem;
+}
+
+#navbar ul{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#navbar ul li:first-child{
+    border-top: 1px solid black;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid black;
+    font-size: 1.2rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+
+
+#main-doc{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: calc(100% - var(--width));
+    margin: 2rem 0 2rem 2rem;
+    padding: 0 2rem;
+}
+
+#main-doc li{
+    list-style: none;
+}
+
+#main-doc section header {
+    font-size: 2rem;
+    color: black;
+}
+
+#main-doc section div{
+    margin: 1rem;
+}
+
+#main-doc section div  .add_inf{
+    width: 80%;
+    padding: 15px;
+    margin: 10px;
+    background-color: rgb(247, 247, 247);
+}
+
+@media (min-width: 200px) {
+    #navbar header{
+        font-size: 1.2rem;
+    }
+}
